@@ -1,0 +1,48 @@
+.color-primary {
+  color: #02c39a;
+}
+
+.color-second {
+  color: #05668d;
+}
+
+.color-beige {
+  color: #f0f3bd;
+}
+
+.color-black {
+  color: #283845;
+}
+
+.color-green {
+  color: #00a896;
+}
+
+.color-ivory {
+  color: #f7ede2;
+}
+
+.bgcol-primary {
+  background-color: #02c39a;
+}
+
+.bgcol-second {
+  background-color: #05668d;
+}
+
+.bgcol-beige {
+  background-color: #f0f3bd;
+}
+
+.bgcol-black {
+  background-color: #283845;
+}
+
+.bgcol-green {
+  background-color: #00a896;
+}
+
+.bgcol-ivory {
+  background-color: #f7ede2;
+}
+/*# sourceMappingURL=color.css.map */

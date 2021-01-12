@@ -1,0 +1,41 @@
+@import "./variables";
+
+// text color
+.color-primary {
+  color: $color-primary;
+}
+.color-second {
+  color: $color-second;
+}
+.color-beige {
+  color: $color-beige;
+}
+.color-black {
+  color: $color-black;
+}
+.color-green {
+  color: $color-green;
+}
+.color-ivory {
+  color: $color-ivory;
+}
+
+// background color
+.bgcol-primary {
+  background-color: $color-primary;
+}
+.bgcol-second {
+  background-color: $color-second;
+}
+.bgcol-beige {
+  background-color: $color-beige;
+}
+.bgcol-black {
+  background-color: $color-black;
+}
+.bgcol-green {
+  background-color: $color-green;
+}
+.bgcol-ivory {
+  background-color: $color-ivory;
+}
