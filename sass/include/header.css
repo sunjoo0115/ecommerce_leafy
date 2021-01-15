@@ -5,17 +5,21 @@
 
 .top-nav-wrap .top-nav {
   position: relative;
-  left: 75%;
+  left: 70%;
   width: 20%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .top-nav-wrap .top-nav .top-nav-item {
-  padding: 0 1rem;
+  padding-right: 1.5rem;
   border-right: 1px solid black;
 }
 
 .top-nav-wrap .top-nav #top-nav-cart {
-  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-right: 1px solid black;
 }
 
 nav {
@@ -166,6 +170,10 @@ nav .nav-sns {
   margin: 0;
 }
 
+#best-section .price-info .currency {
+  line-height: 25px;
+}
+
 #best-section .purchase {
   text-align: center;
   width: 100%;
@@ -175,5 +183,149 @@ nav .nav-sns {
   background-color: rgba(0, 0, 0, 0.3);
   color: white;
   font-weight: normal;
+}
+
+#special-theme {
+  width: 100%;
+  height: 350px;
+  margin: 100px 0 50px 0;
+}
+
+.special-theme-title {
+  margin-left: 10%;
+}
+
+.themes {
+  width: 80%;
+  margin: 0 auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.themes .theme img {
+  width: 150px;
+  border-radius: 100%;
+  margin: 10px 0;
+}
+
+.themes .theme .theme-desc {
+  text-align: center;
+}
+
+.themes .theme .theme-desc h6 {
+  margin: 0;
+}
+
+.themes .theme .theme-desc .theme-desc-title {
+  padding-bottom: 10px;
+}
+
+.themes .theme .theme-desc .theme-desc-content {
+  color: gray;
+  font-weight: normal;
+}
+
+#index-ranking {
+  width: 80%;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ranking-title {
+  text-align: left;
+}
+
+.ranking {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #fff;
+  border-radius: 2px;
+  margin: 1rem;
+  position: relative;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+#ranking-photo {
+  width: 35%;
+}
+
+#ranking-photo .product {
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+#ranking-photo .product img {
+  width: 100%;
+  border-radius: 2px;
+}
+
+#ranking-photo .product .price-info {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#ranking-photo .product .price-info h6 {
+  margin: 0;
+}
+
+#ranking-photo .product .price-info .currency {
+  line-height: 25px;
+}
+
+#ranking-num {
+  width: 30%;
+}
+
+#ranking-num .item {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#ranking-num .item .rank-item {
+  width: 70%;
+}
+
+#ranking-num .item .rank-item .rank-num {
+  text-align: left;
+}
+
+#ranking-num .item .rank-item .rank-name {
+  text-align: center;
+}
+
+#footer {
+  width: 100%;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin-top: 100px;
+}
+
+#footer-row {
+  width: 80%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+#footer-row .footer-item {
+  width: 20%;
+}
+
+#footer-row .footer-item #footer-info-items, #footer-row .footer-item #footer-policy-items {
+  height: 100px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 /*# sourceMappingURL=header.css.map */

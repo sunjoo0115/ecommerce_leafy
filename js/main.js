@@ -26,4 +26,28 @@ $(document).ready(function () {
     // autoplay: true,
     // autoplayTimeout: 3000,
   });
+    // ranking display owl carousel
+    $("#ranking-photo .owl-carousel").owlCarousel({
+      dots: false,
+      nav: false,
+      items: 1,
+      loop: true,
+      autoplay: true,
+      autoplayTimeout: 2000,
+      autoplayHoverPause: true,
+      margin: 0,
+    });
+
+    // ranking num owl carousel
+    $("#ranking-num .owl-carousel").owlCarousel({
+      dots: false,
+      nav: false,
+      items: 1,
+      loop: true,
+      autoplay: true,
+      autoplayTimeout: 10000,
+      autoplayHoverPause: true,
+      margin: 0,
+    });
+
 });
